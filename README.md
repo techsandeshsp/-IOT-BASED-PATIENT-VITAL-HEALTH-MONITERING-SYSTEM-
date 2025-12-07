@@ -1,9 +1,5 @@
 # -IOT-BASED-PATIENT-VITAL-HEALTH-MONITERING-SYSTEM-(sabesh pujeri/becbgkECE)
 "Modern healthcare requires continuous and efficient patient monitoring."
-Below is a clean, well-structured **GitHub-ready project description** for your ESP32 Health Monitoring System.
-It includes **explanations of all components**, their **purpose**, and a **clear system overview**.
-
----
 
 # 🚑 **ESP32 Health Monitoring System with Web Dashboard & Automatic Fan Control**
 
