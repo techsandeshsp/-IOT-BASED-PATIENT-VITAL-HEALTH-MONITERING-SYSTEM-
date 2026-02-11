@@ -16,8 +16,7 @@ The ESP32 collects biometric and environmental data from several sensors:
 | ------------------------ | --------------------------------- |
 | **Heart Rate & SpO₂**    | MAX30102 Pulse Oximeter Module    |
 | **Room Temp & Humidity** | DHT11 Sensor                      |
-| **Body Temperature**     | DS18B20 Digital Temperature Probe |
-| **Cooling Fan Control**  | 5V Fan + Relay Module             |
+| **Body Temperature**     | DS18B20 Digital Temperature Probe |               |
 | **Web Dashboard**        | ESP32 SoftAP + WebServer          |
 
 The system then hosts a local Wi-Fi hotspot (*ESP32_Health*) where users can monitor all readings via any phone or laptop browser.
@@ -80,11 +79,6 @@ Automatic fan logic:
 
 ---
 
-### 🔷 **6. 5V Cooling Fan**
-
-* Automatically activated when room temperature exceeds threshold.
-* Powered externally (5V supply).
-* Switched through the **relay module** for safe operation.
 
 ---
 
